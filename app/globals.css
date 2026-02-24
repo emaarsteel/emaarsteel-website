@@ -1,0 +1,215 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest-950: #071510;
+  --color-forest-900: #0d2318;
+  --color-forest-800: #1B3A2A;
+  --color-forest-700: #215c3a;
+  --color-forest-600: #287047;
+  --color-forest-500: #2d7a4f;
+  --color-forest-400: #3a9962;
+  --color-forest-300: #4aab76;
+  --color-forest-200: #8fcbaa;
+  --color-forest-100: #d6ede1;
+  --color-forest-50: #f0f8f3;
+  --color-ink: #1a1a1a;
+  --color-parchment: #f8f7f4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-cairo), sans-serif;
+}
+
+/* Custom font utilities */
+.font-display {
+  font-family: var(--font-playfair), serif;
+}
+.font-body {
+  font-family: var(--font-cairo), sans-serif;
+}
+
+/* Grid background patterns */
+.bg-grid-forest {
+  background-image: repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.025) 0,
+      rgba(255, 255, 255, 0.025) 1px,
+      transparent 1px,
+      transparent 60px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.02) 0,
+      rgba(255, 255, 255, 0.02) 1px,
+      transparent 1px,
+      transparent 80px
+    );
+}
+.bg-grid-light {
+  background-image: repeating-linear-gradient(
+      0deg,
+      rgba(27, 58, 42, 0.03) 0,
+      rgba(27, 58, 42, 0.03) 1px,
+      transparent 1px,
+      transparent 60px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(27, 58, 42, 0.025) 0,
+      rgba(27, 58, 42, 0.025) 1px,
+      transparent 1px,
+      transparent 80px
+    );
+}
+
+/* Scroll reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal-r {
+  opacity: 0;
+  transform: translateX(-24px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal-r.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Nav underline */
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 1rem;
+  right: 1rem;
+  height: 3px;
+  background: #1b3a2a;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.25s;
+}
+.nav-link:hover::after,
+.nav-link.active::after {
+  transform: scaleX(1);
+}
+
+/* Pillar top bar */
+.pillar-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: #d1d5db;
+  transition: background 0.3s;
+}
+.pillar:hover .pillar-bar {
+  background: #1b3a2a;
+}
+
+/* Steel cell underline */
+.steel-cell {
+  position: relative;
+}
+.steel-cell::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #1b3a2a;
+  transform: scaleX(0);
+  transition: transform 0.3s;
+}
+.steel-cell:hover::after {
+  transform: scaleX(1);
+}
+
+/* News card lift */
+.news-card {
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+.news-card:hover {
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.13);
+  transform: translateY(-4px);
+}
+
+/* Partner chip */
+.partner-chip {
+  transition: all 0.3s;
+}
+.partner-chip:hover {
+  background: rgba(45, 122, 79, 0.2);
+  border-color: #2d7a4f;
+  color: #fff;
+}
+
+/* Carousel */
+.carousel-track {
+  animation: slide 32s linear infinite;
+  width: max-content;
+}
+@keyframes slide {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Chairman expand */
+.chairman-body {
+  max-height: 260px;
+  overflow: hidden;
+  position: relative;
+  transition: max-height 0.65s ease;
+}
+.chairman-body::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: linear-gradient(transparent, #f8f7f4);
+  transition: opacity 0.4s;
+}
+.chairman-body.expanded {
+  max-height: 1400px;
+}
+.chairman-body.expanded::after {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Focus ring */
+input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(27, 58, 42, 0.1);
+}
+
+/* Map grayscale */
+.footer-map iframe {
+  filter: grayscale(1) brightness(0.38) contrast(1.3);
+}
+
+/* Mobile nav hidden */
+@media (max-width: 900px) {
+  .desktop-nav {
+    display: none !important;
+  }
+}
