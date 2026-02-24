@@ -18,7 +18,7 @@ export default function Pillars() {
           </span>
           <h3 className="text-lg font-bold text-ink mb-4">الرؤية</h3>
           <p className="text-[13.5px] text-gray-500 leading-[1.85]">
-            ملان الشريك الأول لتوريد الحديد.
+            إعمار الشريك الأول لتوريد الحديد.
           </p>
         </div>
 

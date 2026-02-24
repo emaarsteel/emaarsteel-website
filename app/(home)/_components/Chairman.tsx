@@ -13,7 +13,7 @@ export default function Chairman() {
           <div className="reveal">
             <p className="flex items-center gap-3 text-[11px] tracking-[4px] uppercase text-forest-700 font-semibold mb-3">
               <span className="w-7 h-0.5 bg-forest-700" />
-              شركة ملان لمنتجات الحديد
+              شركة إعمار لمنتجات الحديد
             </p>
             <h2 className="font-display text-4xl font-bold text-ink mb-4">
               كلمة رئيس مجلس الإدارة
@@ -42,11 +42,11 @@ export default function Chairman() {
                 والليونة أيضاً.
               </p>
               <p className="text-[14.5px] text-gray-500 leading-[1.95] mb-4">
-                شركة ملان تأمل أن تطوع الحديد لعملائها وتساهم في بناء وطن
+                شركة إعمار تأمل أن تطوع الحديد لعملائها وتساهم في بناء وطن
                 معطاء يسوده النماء والرخاء والوفاء في ظل قيادتها الرشيدة.
               </p>
               <p className="text-[14.5px] text-gray-500 leading-[1.95]">
-                إننا في ملان نتطلع لتوسيع نشاطنا في المملكة وفق أفضل الممارسات
+                إننا في إعمار نتطلع لتوسيع نشاطنا في المملكة وفق أفضل الممارسات
                 التي تلبي رغبات عملائنا ونحقق المنافع المتبادلة لمستثمرينا
                 وشركائنا.
               </p>

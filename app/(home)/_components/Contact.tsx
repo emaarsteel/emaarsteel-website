@@ -110,10 +110,10 @@ export default function Contact() {
                   البريد الإلكتروني
                 </h4>
                 <a
-                  href="mailto:info@molansteel.com"
+                  href="mailto:info@emaarsteel.com"
                   className="text-sm text-white/40 hover:text-forest-300 transition-colors"
                 >
-                  info@molansteel.com
+                  info@emaarsteel.com
                 </a>
               </div>
             </div>

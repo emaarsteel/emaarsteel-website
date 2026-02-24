@@ -7,7 +7,7 @@ const navLinks = [
   { href: "#about", label: "من نحن", sectionId: "about" },
   { href: "#sectors", label: "مجالات العمل", sectionId: "sectors" },
   { href: "#steel", label: "توريد الحديد", sectionId: "steel" },
-  { href: "https://molansteel.com/news/", label: "الأخبار", external: true },
+  { href: "https://emaarsteel.com/news/", label: "الأخبار", external: true },
   { href: "#clients", label: "عملائنا", sectionId: "clients" },
   { href: "#contact", label: "تواصل معنا", sectionId: "contact" },
 ];
@@ -36,9 +36,9 @@ export default function Navbar() {
           م
         </div>
         <div className="flex flex-col leading-none">
-          <span className="text-xl font-extrabold text-ink tracking-tight">مُلان</span>
+          <span className="text-xl font-extrabold text-ink tracking-tight">إعمار</span>
           <span className="text-[10px] tracking-[3px] text-forest-700 uppercase mt-0.5 font-semibold">
-            MOLAN STEEL
+            EMAAR STEEL
           </span>
         </div>
       </a>
@@ -63,7 +63,7 @@ export default function Navbar() {
 
       {/* CTA */}
       <a
-        href="https://molansteel.com/en/"
+        href="https://emaarsteel.com/en/"
         className="hidden md:block bg-forest-800 text-white px-6 py-2.5 text-[13px] font-semibold rounded-sm border-2 border-forest-800 hover:bg-transparent hover:text-forest-800 transition-all duration-200 font-body"
       >
         English

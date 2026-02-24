@@ -4,7 +4,7 @@ export default function TopBar() {
       {/* Social */}
       <div className="flex items-center gap-1.5">
         <a
-          href="https://www.facebook.com/molansteel.co"
+          href="https://www.facebook.com/emaarsteel.co"
           target="_blank"
           rel="noopener noreferrer"
           className="w-6 h-6 flex items-center justify-center rounded-full border border-white/10 hover:bg-forest-500 hover:border-forest-500 hover:text-white transition-all duration-200"
@@ -14,7 +14,7 @@ export default function TopBar() {
           </svg>
         </a>
         <a
-          href="https://twitter.com/MolanSteel_co"
+          href="https://twitter.com/EmaarSteel_co"
           target="_blank"
           rel="noopener noreferrer"
           className="w-6 h-6 flex items-center justify-center rounded-full border border-white/10 hover:bg-forest-500 hover:border-forest-500 hover:text-white transition-all duration-200"
@@ -24,7 +24,7 @@ export default function TopBar() {
           </svg>
         </a>
         <a
-          href="https://www.instagram.com/molansteel.co/"
+          href="https://www.instagram.com/emaarsteel.co/"
           target="_blank"
           rel="noopener noreferrer"
           className="w-6 h-6 flex items-center justify-center rounded-full border border-white/10 hover:bg-forest-500 hover:border-forest-500 hover:text-white transition-all duration-200"
@@ -52,7 +52,7 @@ export default function TopBar() {
           </svg>
         </a>
         <a
-          href="https://www.linkedin.com/company/molansteelco/"
+          href="https://www.linkedin.com/company/emaarsteelco/"
           target="_blank"
           rel="noopener noreferrer"
           className="w-6 h-6 flex items-center justify-center rounded-full border border-white/10 hover:bg-forest-500 hover:border-forest-500 hover:text-white transition-all duration-200"
@@ -96,10 +96,10 @@ export default function TopBar() {
             <polyline points="22,6 12,13 2,6" />
           </svg>
           <a
-            href="mailto:info@molansteel.com"
+            href="mailto:info@emaarsteel.com"
             className="hover:text-forest-300 transition-colors"
           >
-            info@molansteel.com
+            info@emaarsteel.com
           </a>
         </div>
         <div className="flex items-center gap-2">

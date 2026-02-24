@@ -15,13 +15,13 @@ export default function Hero() {
           <div className="flex items-center gap-3 mb-6">
             <span className="w-10 h-px bg-forest-300" />
             <span className="text-[11px] tracking-[4px] uppercase text-forest-300 font-semibold">
-              ملان للحديد والصلب — المملكة العربية السعودية
+              إعمار للحديد والصلب — المملكة العربية السعودية
             </span>
           </div>
           <h1 className="font-display text-5xl md:text-6xl font-bold text-white leading-[1.1] mb-3">
-            مُلان
+            إعمار
             <br />
-            <span className="text-forest-300">Molan Steel</span>
+            <span className="text-forest-300">Emaar Steel</span>
           </h1>
           <p className="text-xl font-light text-white/55 leading-relaxed mb-11 border-r-4 border-forest-500 pr-4">
             الشريك الأول لتوريد الحديد.

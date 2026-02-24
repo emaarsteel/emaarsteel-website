@@ -18,14 +18,14 @@ export default function Sectors() {
           <div className="reveal">
             <p className="flex items-center gap-3 text-[11px] tracking-[4px] uppercase text-forest-300 font-semibold mb-3">
               <span className="w-7 h-0.5 bg-forest-300" />
-              تعرف على شركة ملان
+              تعرف على شركة إعمار
             </p>
             <h2 className="font-display text-4xl font-bold text-white mb-4">
               مجالات العمل
             </h2>
             <div className="w-12 h-[3px] bg-forest-500 mb-6" />
             <p className="text-[15px] text-white/45 leading-[1.85] mb-9">
-              تعتبر ملان مورد رائد وشامل لمنتجات الحديد في مختلف القطاعات
+              تعتبر إعمار مورد رائد وشامل لمنتجات الحديد في مختلف القطاعات
               الصناعية والإنشائية.
             </p>
             <a

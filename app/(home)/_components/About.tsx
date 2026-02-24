@@ -24,14 +24,14 @@ export default function About() {
           <div className="reveal">
             <p className="flex items-center gap-3 text-[11px] tracking-[4px] uppercase text-forest-700 font-semibold mb-3">
               <span className="w-7 h-0.5 bg-forest-700" />
-              تعرف على شركة ملان
+              تعرف على شركة إعمار
             </p>
             <h2 className="font-display text-4xl font-bold text-ink mb-4">
               عن الشركة
             </h2>
             <div className="w-12 h-[3px] bg-forest-800 mb-6" />
             <p className="text-[15px] text-gray-500 leading-[1.9]">
-              تعتبر شركة ملان مورد رائد وشامل لمنتجات الحديد المطلوبة في البناء
+              تعتبر شركة إعمار مورد رائد وشامل لمنتجات الحديد المطلوبة في البناء
               والتصنيع وتجارة الحديد في داخل المملكة وخارجها، ويقع مقر الشركة
               الرئيسي في المملكة العربية السعودية – الرياض.
             </p>

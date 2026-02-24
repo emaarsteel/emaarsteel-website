@@ -7,7 +7,7 @@ export default function News() {
           <div>
             <p className="flex items-center gap-3 text-[11px] tracking-[4px] uppercase text-forest-700 font-semibold mb-3">
               <span className="w-7 h-0.5 bg-forest-700" />
-              آخر الأخبار لدى ملان
+              آخر الأخبار لدى إعمار
             </p>
             <h2 className="font-display text-4xl font-bold text-ink mb-4">
               الأخبار
@@ -15,7 +15,7 @@ export default function News() {
             <div className="w-12 h-[3px] bg-forest-800" />
           </div>
           <a
-            href="https://molansteel.com/news/"
+            href="https://emaarsteel.com/news/"
             className="inline-flex items-center gap-2 bg-transparent text-forest-800 border-2 border-forest-800 px-6 py-3 text-[13.5px] font-semibold rounded-sm hover:bg-forest-800 hover:text-white transition-all duration-200 font-body"
           >
             جميع الأخبار
@@ -38,7 +38,7 @@ export default function News() {
                 فتح فرع جديد في مدينة الدمام
               </h3>
               <a
-                href="https://molansteel.com/news/افتتاح-فرعنا-الجديد-بالدمام/"
+                href="https://emaarsteel.com/news/افتتاح-فرعنا-الجديد-بالدمام/"
                 className="inline-flex items-center gap-2 text-forest-700 text-[13px] font-semibold hover:gap-4 hover:text-forest-900 transition-all duration-200 font-body"
               >
                 تفاصيل الخبر <span>←</span>
@@ -58,11 +58,11 @@ export default function News() {
                   📅 9 مايو 2023
                 </p>
                 <h3 className="text-[13.5px] font-bold text-ink leading-snug mb-4">
-                  إعلان شركة ملان لمنتجات الحديد عن دعوة مساهميها إلى حضور
+                  إعلان شركة إعمار لمنتجات الحديد عن دعوة مساهميها إلى حضور
                   اجتماع الجمعية العامة العادية
                 </h3>
                 <a
-                  href="https://molansteel.com/news/إعلان-شركة-ملان/"
+                  href="https://emaarsteel.com/news/إعلان-شركة-إعمار/"
                   className="inline-flex items-center gap-2 text-forest-700 text-[12px] font-semibold hover:gap-3 hover:text-forest-900 transition-all duration-200 font-body"
                 >
                   تفاصيل الخبر <span>←</span>
@@ -77,7 +77,7 @@ export default function News() {
                   اطّلع على جميع الأخبار والتحديثات
                 </p>
                 <a
-                  href="https://molansteel.com/news/"
+                  href="https://emaarsteel.com/news/"
                   className="inline-flex items-center gap-2 bg-forest-800 text-white px-6 py-2.5 text-sm font-semibold rounded-sm hover:bg-forest-900 transition-colors font-body"
                 >
                   جميع الأخبار

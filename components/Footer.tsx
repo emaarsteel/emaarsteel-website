@@ -8,14 +8,14 @@ const strengths = [
 
 const contactItems = [
   { icon: "📞", text: "966530018050+" },
-  { icon: "✉️", text: "info@molansteel.com" },
+  { icon: "✉️", text: "info@emaarsteel.com" },
   { icon: "📍", text: "الرياض - السلي - شارع هارون الرشيد" },
   { icon: "📍", text: "جدة - حي الجوهرة - خلف الفحص الدوري" },
 ];
 
 const socialLinks = [
   {
-    href: "https://www.facebook.com/molansteel.co",
+    href: "https://www.facebook.com/emaarsteel.co",
     icon: (
       <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor">
         <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
@@ -23,7 +23,7 @@ const socialLinks = [
     ),
   },
   {
-    href: "https://twitter.com/MolanSteel_co",
+    href: "https://twitter.com/EmaarSteel_co",
     icon: (
       <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor">
         <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
@@ -31,7 +31,7 @@ const socialLinks = [
     ),
   },
   {
-    href: "https://www.instagram.com/molansteel.co/",
+    href: "https://www.instagram.com/emaarsteel.co/",
     icon: (
       <svg
         width="10"
@@ -55,7 +55,7 @@ const socialLinks = [
     ),
   },
   {
-    href: "https://www.linkedin.com/company/molansteelco/",
+    href: "https://www.linkedin.com/company/emaarsteelco/",
     icon: (
       <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor">
         <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z" />
@@ -78,10 +78,10 @@ export default function Footer() {
             <div className="w-9 h-9 bg-forest-800 flex items-center justify-center text-white font-bold text-sm rounded-sm">
               م
             </div>
-            <span className="text-lg font-extrabold text-white">مُلان</span>
+            <span className="text-lg font-extrabold text-white">إعمار</span>
           </div>
           <p className="text-[13px] text-white/35 leading-[1.85]">
-            تعتبر شركة ملان مورد رائد وشامل لمنتجات الحديد المطلوبة في بناء
+            تعتبر شركة إعمار مورد رائد وشامل لمنتجات الحديد المطلوبة في بناء
             وتصنيع وتجارة الحديد في داخل المملكة وخارجها.
           </p>
         </div>
@@ -135,7 +135,7 @@ export default function Footer() {
           <div className="footer-map">
             <iframe
               src="https://maps.google.com/maps?q=24.65326120618372,46.81425817442438&t=m&z=10&output=embed&iwloc=near"
-              title="موقع ملان"
+              title="موقع إعمار"
               loading="lazy"
               className="w-full h-40 border-none"
             />
@@ -146,7 +146,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="max-w-[1240px] mx-auto flex flex-col md:flex-row items-center justify-between gap-4 px-14 py-6">
         <p className="text-[11.5px] text-white/25">
-          © 2025 ملان لمنتجات الحديد — جميع الحقوق محفوظة.
+          © 2025 إعمار لمنتجات الحديد — جميع الحقوق محفوظة.
         </p>
         <div className="flex items-center gap-1.5">
           {socialLinks.map(({ href, icon }, i) => (

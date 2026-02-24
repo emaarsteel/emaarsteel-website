@@ -19,7 +19,7 @@ export default function Partners() {
       <div className="max-w-[1240px] mx-auto px-14">
         <div className="text-center reveal mb-10">
           <p className="text-[11px] tracking-[4px] uppercase text-forest-300 font-semibold mb-3 flex items-center justify-center gap-3">
-            تعرف على شركاء ملان
+            تعرف على شركاء إعمار
           </p>
           <h2 className="font-display text-4xl font-bold text-white mb-4">
             الشركاء
