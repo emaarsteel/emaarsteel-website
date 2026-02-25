@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
-import { Cairo, Playfair_Display } from "next/font/google";
+import { Cairo, Almarai } from "next/font/google";
 import "./globals.css";
 import ScrollRevealInit from "@/components/ScrollRevealInit";
+import { LanguageProvider } from "@/context/LanguageContext";
+import DirSync from "@/components/DirSync";
 
 const cairo = Cairo({
   subsets: ["arabic", "latin"],
@@ -10,11 +12,10 @@ const cairo = Cairo({
   display: "swap",
 });
 
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-  variable: "--font-playfair",
-  style: ["normal", "italic"],
-  weight: ["600", "700"],
+const almarai = Almarai({
+  subsets: ["arabic", "latin"],
+  variable: "--font-almarai",
+  weight: ["300", "400", "700", "800"],
   display: "swap",
 });
 
@@ -33,11 +34,15 @@ export default function RootLayout({
     <html
       lang="ar"
       dir="rtl"
-      className={`${cairo.variable} ${playfair.variable}`}
+      suppressHydrationWarning
+      className={`${cairo.variable} ${almarai.variable}`}
     >
-      <body className="bg-white text-ink antialiased overflow-x-hidden">
-        {children}
-        <ScrollRevealInit />
+      <body className="bg-white text-ink antialiased overflow-x-hidden w-full">
+        <LanguageProvider>
+          <DirSync />
+          {children}
+          <ScrollRevealInit />
+        </LanguageProvider>
       </body>
     </html>
   );

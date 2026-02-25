@@ -1,5 +1,4 @@
-import TopBar from "@/components/TopBar";
-import Navbar from "@/components/Navbar";
+import Header from "@/components/Header";
 import Hero from "@/app/(home)/_components/Hero";
 import About from "@/app/(home)/_components/About";
 import Chairman from "@/app/(home)/_components/Chairman";
@@ -14,9 +13,8 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <>
-      <TopBar />
-      <Navbar />
-      <main>
+      <Header />
+      <main className="w-full">
         <Hero />
         <About />
         <Chairman />
